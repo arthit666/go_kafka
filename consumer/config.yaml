@@ -1,0 +1,13 @@
+kafka:
+  servers:
+    - localhost:9092
+  group: accountConsumer
+
+db:
+  host: localhost
+  port: 5432
+  user: ak
+  password: 12345678
+  dbname: micro
+  sslmode: disable
+  schema: public
